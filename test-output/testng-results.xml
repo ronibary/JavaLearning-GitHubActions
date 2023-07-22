@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-13T12:33:46Z" name="My Test Suite" finished-at="2022-10-13T12:33:46Z" duration-ms="54">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.myTestDemo1()[pri:0, instance:testng.Day2@1623b78d]" name="myTestDemo1" class="testng.Day2"/>
+        <method signature="Day4.loginAPIHomeLoan()[pri:0, instance:testng.Day4@4550bb58]" name="loginAPIHomeLoan" class="testng.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-13T12:33:46Z" name="Personal Loan" finished-at="2022-10-13T12:33:46Z" duration-ms="40">
+      <class name="testng.Day4">
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:testng.Day4@4550bb58]" started-at="2022-10-13T12:33:46Z" name="webLoginHomeLoan" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method signature="loginAPIHomeLoan()[pri:0, instance:testng.Day4@4550bb58]" started-at="2022-10-13T12:33:46Z" name="loginAPIHomeLoan" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIHomeLoan -->
+        <test-method signature="webLogoutHomeLoan(java.lang.String)[pri:0, instance:testng.Day4@4550bb58]" started-at="2022-10-13T12:33:46Z" name="webLogoutHomeLoan" finished-at="2022-10-13T12:33:46Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogoutHomeLoan -->
+      </class> <!-- testng.Day4 -->
+      <class name="testng.Day1">
+        <test-method signature="Demo()[pri:0, instance:testng.Day1@6adbc9d]" started-at="2022-10-13T12:33:46Z" name="Demo" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingletoneDemo -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:testng.Day1@6adbc9d]" started-at="2022-10-13T12:33:46Z" name="lastExecution" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- testng.Day1 -->
+      <class name="testng.Day2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:testng.Day2@1623b78d]" started-at="2022-10-13T12:33:46Z" name="prerequisite" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="myTestDemo1()[pri:0, instance:testng.Day2@1623b78d]" started-at="2022-10-13T12:33:46Z" name="myTestDemo1" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestDemo1 -->
+      </class> <!-- testng.Day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-10-13T12:33:46Z" name="Car Loan" finished-at="2022-10-13T12:33:46Z" duration-ms="54">
+      <class name="testng.Day3">
+        <test-method is-config="true" signature="beforeSuiteExecution()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeSuiteExecution" finished-at="2022-10-13T12:33:46Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteExecution -->
+        <test-method is-config="true" signature="beforeClassExecution()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeClassExecution" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassExecution -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileLoginCarLoan" finished-at="2022-10-13T12:33:46Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method signature="mobileRegistrationCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileRegistrationCarLoan" finished-at="2022-10-13T12:33:46Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileRegistrationCarLoan -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method signature="mobileSignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileSignoutCarLoan" data-provider="getData" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutCarLoan -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method signature="mobileSignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileSignoutCarLoan" data-provider="getData" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutCarLoan -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="beforeEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="mobileSignoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileSignoutCarLoan" data-provider="getData" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutCarLoan -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterEachTest" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="afterClassExecution()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterClassExecution" finished-at="2022-10-13T12:33:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassExecution -->
+        <test-method signature="mobileAPICarLoan()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="mobileAPICarLoan" finished-at="2022-10-13T12:33:46Z" depends-on-methods="testng.Day3.mobileLoginCarLoan" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileAPICarLoan -->
+        <test-method is-config="true" signature="afterSuiteExecution()[pri:0, instance:testng.Day3@76505305]" started-at="2022-10-13T12:33:46Z" name="afterSuiteExecution" finished-at="2022-10-13T12:33:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteExecution -->
+      </class> <!-- testng.Day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

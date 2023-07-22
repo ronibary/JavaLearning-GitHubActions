@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <test verbose="2" preserve-order="true" name="Personal Loan">
+        <groups>
+            <run>
+                <include name="Smoke"/>  <!-- run all the test with tag -> groups = "Smoke" -->
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.Day1"/>
+            <class name="testng.Day2"/>
+            <class name="testng.Day3"/>
+            <class name="testng.Day4"/>
+        </classes>
+    </test>
+</suite>

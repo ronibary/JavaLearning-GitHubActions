@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" parallel="tests" thread-count="6">
+
+    <listeners>
+        <listener class-name="testng.Listeners"/>
+    </listeners>
+
+    <!-- parameterization in testng -->
+    <parameter name="URL" value="ronapis.com"/>
+
+
+    <test verbose="2" preserve-order="true" name="Personal Loan" parallel="classes" thread-count="2">
+        <parameter name="URL" value="personalloan.com"/>
+
+        <classes>
+            <class name="testng.Day1">
+                <methods>
+                    <include name="Demo"/>
+                    <exclude name="SecondTest"/>
+                </methods>
+            </class>
+            <class name="testng.Day2"/>
+            <class name="testng.Day4"/>
+        </classes>
+    </test>
+
+    <test name="Car Loan">
+        <parameter name="URL" value="carloan.com"/>
+        <parameter name="APIKey/username" value="12345678"/>
+
+        <classes>
+            <class name="testng.Day3">
+                <methods>
+                    <!--<exclude name="mobile.*"/>     &lt;!&ndash; exclude all methods start with 'mobile' from running &ndash;&gt;-->
+                    <exclude name="web.*"/>     <!-- exclude all methods start with 'web' from running -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
